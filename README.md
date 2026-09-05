@@ -226,7 +226,8 @@ Possible future options:
 
 ---
 
-# 🏗️ Proposed Architecture
+# 🏗️ Proposed Architecture 
+<img width="1408" height="768" alt="Gemini_Generated_Image_g0bpz3g0bpz3g0bp" src="https://github.com/user-attachments/assets/38891b09-7e41-4f63-a030-5227d1fe0700" />
 
 ```text
                          USER
