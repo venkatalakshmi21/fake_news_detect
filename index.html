@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YO G News</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="logo">YO G <span>NEWS</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#latest">Latest</a>
+      <a href="#categories">Categories</a>
+      <a href="#verify">Verify News</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div>
+    <p class="tag">AI-ASSISTED NEWS PLATFORM</p>
+    <h1>Read the News.<br><span>Question the News.</span></h1>
+    <p>YO G News combines a modern news-reading platform with AI-assisted credibility analysis.</p>
+    <a class="btn" href="#verify">Verify a News Article →</a>
+  </div>
+  <div class="hero-card">
+    <small>🛡️ YO G VERIFY</small>
+    <h2>Don't just read information.</h2>
+    <p>Understand credibility signals behind it.</p>
+    <hr>
+    <b>AI + NLP Analysis Ready</b>
+  </div>
+</section>
+
+<section class="section" id="latest">
+  <div class="heading"><div><p class="tag">WHAT'S HAPPENING</p><h2>Latest News</h2></div>
+  <button onclick="loadNews()">Refresh</button></div>
+  <div id="newsGrid" class="news-grid">Loading news...</div>
+</section>
+
+<section class="section" id="categories">
+  <p class="tag">EXPLORE</p><h2>Browse by Category</h2>
+  <div class="categories">
+    <button>Technology</button><button>Science</button><button>Education</button>
+    <button>Business</button><button>Sports</button><button>Health</button>
+    <button>Entertainment</button><button>World</button>
+  </div>
+</section>
+
+<section class="verify" id="verify">
+  <div>
+    <p class="tag">YO G VERIFY</p>
+    <h2>Analyze Any News Article</h2>
+    <p>Paste a headline or article. The prototype AI analyzes textual patterns and provides a credibility indication.</p>
+    <ol><li>Paste the news</li><li>AI analyzes the text</li><li>Review the result</li></ol>
+  </div>
+  <div class="verify-box">
+    <label>News Headline</label>
+    <input id="title" placeholder="Enter news headline">
+    <label>News Content</label>
+    <textarea id="content" rows="8" placeholder="Paste full article or claim here"></textarea>
+    <button class="btn full" id="analyzeBtn" onclick="analyzeNews()">🛡️ Analyze News</button>
+    <div id="result" class="result hidden"></div>
+  </div>
+</section>
+
+<section class="about">
+  <div><p class="tag">OUR APPROACH</p><h2>AI should assist readers, not replace critical thinking.</h2></div>
+  <p>YO G News provides machine-learning-based credibility signals to help readers decide when additional verification may be useful.</p>
+</section>
+</main>
+
+<footer><div class="logo">YO G <span>NEWS</span></div><p>Read it. Understand it. Question it.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
