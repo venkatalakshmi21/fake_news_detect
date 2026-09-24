@@ -1,0 +1,2 @@
+# YO G News - Testing Requirements
+pytest>=8.0,<10.0
